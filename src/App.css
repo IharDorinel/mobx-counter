@@ -2,37 +2,55 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.setValueCont {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.startMaxCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  color: #ce8b20;
+}
+
+input {
+  width: 220px;
+  border-radius: 5px;
+  border-color: #56b1b1;
+}
+
+button {
+  font-size: 14px;
+  background-color: #56b1b1;
+  color: blanchedalmond;
+  border: none;
+  border-radius: 5px;
+  width: 170px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.valueBtn {
+  width: 100px;
+  margin: 10px 5px;
 }
